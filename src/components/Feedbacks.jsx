@@ -1,3 +1,4 @@
+/*
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -64,3 +65,4 @@ const Feedbacks = () => {
 };
 
 export default SectionWrapper(Feedbacks, "");
+*/
