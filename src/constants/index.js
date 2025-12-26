@@ -3,6 +3,9 @@ import {
   backend,
   creator,
   web,
+  linkedin,
+  githubIcon,
+  instagram,
   javascript,
   typescript,
   html,
@@ -19,10 +22,22 @@ import {
   starbucks,
   tesla,
   shopify,
+  redteam,
+  belity,
+  redpontis,
+  farmaciasperuanas,
   carrent,
   jobit,
   tripguide,
   threejs,
+  java,
+  springwebflux,
+  aws,
+  kubernetes,
+  angular,
+  linux,
+  gcp,
+  claude,
 } from "../assets";
 
 export const navLinks = [
@@ -42,31 +57,30 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "LinkedIn",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/luis-gutierrez-3nr19u3/",
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "GitHub",
+    icon: githubIcon,
+    link: "https://github.com/3nr19u3",
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "Instagram",
+    icon: instagram,
+    link: "https://www.instagram.com/dev_pull/",
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Spring Webflux",
+    icon: springwebflux,
   },
   {
     name: "JavaScript",
@@ -77,36 +91,36 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Angular",
+    icon: angular,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Linux",
+    icon: linux,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "K8S",
+    icon: kubernetes,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "GCP",
+    icon: gcp,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Claude Code",
+    icon: claude,
   },
   {
     name: "docker",
@@ -116,55 +130,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Backend Developer",
+    company_name: "Farmacias Peruanas",
+    icon: farmaciasperuanas,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2025 - Diciembre 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed integration components for external services and support components for the new B2B sales channel.",
+      "Led the initiative for new B2B business-flow design.",
+      "Optimized code and services into a fully reactive context to improve performance and response times.",
+      "Contributed to architectural improvements for a new business-process solution.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Backend Developer",
+    company_name: "Redpontis",
+    icon: redpontis,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2024 - Mar 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Refactored integration for online banking queries.",
+      "Contributed to the integrations with external services.",
+      "Updated and improved high-demand services using reactive programming to avoid service degradation.",
+      "Modernized and refactored code with a cleaner, more maintainable approach.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Fullstack Developer",
+    company_name: "Belity",
+    icon: belity,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jun 2023 - Mar 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Integrated card-based payment module for the mobile app using Stripe.",
+      "Implemented secure card collection using the flutter_stripe package.",
+      "Updated and improved various backend and mobile app functionalities using Frameworks conventions.",
+      "Refactored code for better maintainability across backend and mobile layers.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer",
+    company_name: "RedTeam",
+    icon: redteam,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Apr 2023 - Jul 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Integrated two project-management platforms for the construction sector.",
+      "Improved management processes through proposal and development of two-way APIs.",
+      "Updated and optimized features using asynchronous processes and batch jobs.",
+      "Contributed to AWS cloud deployments and service development.",
     ],
   },
 ];
@@ -198,20 +212,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Party on! 🌙🥂",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Fuel the night. Discover and order alcoholic drink packs for every occasion, delivered straight to your door when the night is just getting started.",
     tags: [
       {
-        name: "react",
+        name: "social",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "nigth",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "party",
         color: "pink-text-gradient",
       },
     ],
@@ -219,47 +233,48 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Pichanga ⚽",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Find nearby soccer games, join open matches, and connect with players in your city. No more searching—just show up and play.",
     tags: [
       {
-        name: "react",
+        name: "football",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "friends",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "meet",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  //TODO - Here we can add or customize the projects to show
+  /** {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/",
+    },*/
 ];
 
 export { services, technologies, experiences, testimonials, projects };
