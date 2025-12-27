@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 //import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
@@ -6,7 +6,7 @@ import PrivacyPolicy from "./components/PrivacyPolicy";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route
           path="/"
@@ -30,7 +30,7 @@ const App = () => {
         />
         <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
