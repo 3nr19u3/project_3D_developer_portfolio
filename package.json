@@ -3,10 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://3nr19u3.github.io/project_3D_developer_portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
@@ -21,7 +24,6 @@
     "react-parallax-tilt": "^1.7.315",
     "react-router-dom": "^7.10.1",
     "react-vertical-timeline-component": "^3.5.3",
-    "prop-types": "^15.8.1",
     "three": "^0.181.2"
   },
   "devDependencies": {
@@ -29,6 +31,7 @@
     "@types/react-dom": "^19.2.1",
     "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.18",
     "vite": "^7.2.6"
