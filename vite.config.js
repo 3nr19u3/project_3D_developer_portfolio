@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/', // TU_REPO_NAME '/' is for root deployment
+  base: '/', // TU_REPO_NAME  change to '/' for root deployment
   //build: { minify: false },
   plugins: [react()],
   server: {
